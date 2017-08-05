@@ -16,10 +16,14 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "deploy": "node upload.js",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.5.2"
+    "aws-sdk": "^2.94.0",
+    "prettier": "^1.5.2",
+    "rimraf": "^2.6.1",
+    "s3": "^4.4.0"
   }
 }
