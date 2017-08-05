@@ -8,15 +8,15 @@ import './index.css'
 const Header = () =>
   <div
     style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
+      background: '#5ac491',
+      marginBottom: '1rem',
     }}
   >
     <div
       style={{
         margin: '0 auto',
         maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
+        padding: '1rem 0.5rem',
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -27,19 +27,21 @@ const Header = () =>
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          Blake and Anna
         </Link>
       </h1>
+      <h2 style={{ margin: 0 }}>
+        February 3rd, 2018
+      </h2>
     </div>
   </div>
 
 const TemplateWrapper = ({ children }) =>
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Blake and Anna Wedding - Feb 3, 2018"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Blake and Anna get married on February 3rd, 2018' },
       ]}
     />
     <Header />
