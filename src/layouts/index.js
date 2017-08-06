@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import pages from '../pageList.js'
+import Burger from './burger.js'
 
 import './index.css'
 
@@ -19,20 +21,26 @@ const Header = () =>
         padding: '1rem 0.5rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Blake and Anna
-        </Link>
-      </h1>
-      <h2 style={{ margin: 0 }}>
-        February 3rd, 2018
-      </h2>
+      <div style={{display: 'inline-block', width: '85%'}}>
+        <h1 style={{ margin: 0 }}>
+          <Link
+            to="/"
+            style={{
+              color: 'white',
+              textDecoration: 'none',
+            }}
+          >
+            Blake and Anna
+          </Link>
+        </h1>
+        <h2 style={{ margin: 0 }}>
+          February 3rd, 2018
+        </h2>
+      </div>
+      <Burger>
+        <Link to="/">home</Link>
+        {pages.map(page => <Link key={page} to={`/${page}/`}>{page}</Link>)}
+      </Burger>
     </div>
   </div>
 

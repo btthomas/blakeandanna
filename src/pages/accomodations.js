@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const HotelPage = () =>
+const AccomodationsPage = () =>
   <div>
     <h2>
       Hyatt Regency Tysons Corner Center
@@ -15,4 +15,4 @@ const HotelPage = () =>
     <img style={{width: '100%', height: 'auto', display: 'block', margin: '15px auto'}} src="https://unsplash.it/1200/1000" />
   </div>
 
-export default HotelPage;
+export default AccomodationsPage;

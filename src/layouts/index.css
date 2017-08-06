@@ -203,7 +203,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 112.5%/1.45em Helvetica, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -218,7 +218,7 @@ html {
 }
 body {
   color: var(--color-2);
-  font-family: georgia, serif;
+  font-family: helvetica, sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -653,4 +653,33 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background-color: #444;
+  opacity: 0.8;
+  transition: width 500ms ease-in-out;
+  overflow-x: hidden;
+  text-overflow: clip;
+}
+
+nav.closed {
+  width: 0;
+}
+
+nav.open {
+  width: 250px;
+}
+
+
+nav a {
+  display: block;
+  margin: 30px;
+  width: 190px;
+  text-overflow: clip;
+
+  color: var(--color-3);
 }
