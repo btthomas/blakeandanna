@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 const people = [
   {
     name: 'Marianne',
-    imgSrc: 'http://via.placeholder.com/900x1200',
+    imgSrc: '/pics/marianne.jpg',
     description: 'Marianne smells bad.',
   },
   {
@@ -19,27 +19,27 @@ const people = [
   },
   {
     name: 'Caitlin',
-    imgSrc: 'http://via.placeholder.com/900x1200',
+    imgSrc: '/pics/caitlin.jpg',
     description: 'Caitlin smells bad.',
   },
   {
     name: 'Brian',
-    imgSrc: 'http://via.placeholder.com/900x1200',
+    imgSrc: '/pics/brian.jpg',
     description: 'Brian smells bad.',
   },
   {
     name: 'Ben',
-    imgSrc: 'http://via.placeholder.com/900x1200',
+    imgSrc: '/pics/ben.jpg',
     description: 'Ben smells bad.',
   },
   {
     name: 'Eric',
-    imgSrc: 'http://via.placeholder.com/900x1200',
+    imgSrc: '/pics/eric.jpg',
     description: 'Eric smells bad.',
   },
   {
     name: 'Bruce',
-    imgSrc: 'http://via.placeholder.com/900x1200',
+    imgSrc: '/pics/bruce.jpg',
     description: 'Bruce smells bad.',
   },
 ];
@@ -53,7 +53,7 @@ const PeoplePage = () =>
         <div key={person.name}>
           <h4>{person.name}</h4>
           <img src={person.imgSrc} style={{width: '80%', maxWidth: '600px', height: 'auto', display: 'block', margin: '15px auto'}}/>
-          <p>{person.description}</p>
+          <p>{''}</p>
         </div>
       );
     })}

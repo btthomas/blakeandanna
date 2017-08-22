@@ -6,14 +6,11 @@ const RegistryPage = () =>
     <h2>
       Registry
     </h2>
-    <a href="https://crateandbarrel.com">
+    <a href="https://www.crateandbarrel.com/gift-registry/anna-hunter-and-blake-thomas/r5729048">
       <img src="https://images.crateandbarrel.com/is/image/Crate/WebsiteHeaderLogo/fmt=png-alpha/170805043136/WebsiteHeaderLogo.jpg" />
     </a>
-    <a href="https://bedbathandbeyond.com">
+    <a href="https://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?registryId=544926178&eventType=Wedding&pwsurl=&eventType=Wedding">
       <img src="https://www.bedbathandbeyond.com/_assets/global/images/logo/logo_bbb.png" />
-    </a>
-    <a href="https://www.amazon.com">
-      <img src="http://static1.businessinsider.com/image/539f3ffbecad044276726c01-960/amazon-com-logo.jpg" />
     </a>
   </div>
 

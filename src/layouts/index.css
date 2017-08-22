@@ -654,6 +654,16 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+#nav-button {
+  color: #eee;
+  vertical-align: text-top;
+  margin: 8px 1px;
+  text-align: right;
+  font-size: 1.5rem;
+  text-decoration: none !important;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -682,4 +692,8 @@ nav a {
   text-overflow: clip;
 
   color: var(--color-3);
+}
+
+#nav-button:hover {
+  cursor: pointer;
 }

@@ -12,7 +12,10 @@ const VenuePage = () =>
       </a>
     </h4>
     <a href="https://www.novaparks.com/weddings-catering/the-atrium-at-meadowlark">The Atrium homepage</a>
-    <img style={{width: '100%', height: 'auto', display: 'block', margin: '15px auto'}} src="https://unsplash.it/1200/1000" />
+    <img
+      style={{width: '100%', maxWidth: '500px', height: 'auto', display: 'block', margin: '15px auto'}}
+      src="https://www.novaparks.com/sites/default/files/styles/full_width/public/image-gallery/Meadowlark8.jpg"
+    />
   </div>
 
 export default VenuePage;

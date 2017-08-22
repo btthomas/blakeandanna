@@ -12,7 +12,10 @@ const AccomodationsPage = () =>
       </a>
     </h4>
     <a href="https://aws.passkey.com/go/hunterandthomaswedding">Click here to make a reservation with a discounted rate</a>
-    <img style={{width: '100%', height: 'auto', display: 'block', margin: '15px auto'}} src="https://unsplash.it/1200/1000" />
+    <img
+      style={{width: '100%', maxWidth: '500px', height: 'auto', display: 'block', margin: '15px auto'}}
+      src="https://yt3.ggpht.com/-L8oRWx9L7uI/AAAAAAAAAAI/AAAAAAAAAAA/VqzGSozeoDM/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
+    />
   </div>
 
 export default AccomodationsPage;

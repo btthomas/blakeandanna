@@ -1,4 +1,5 @@
 import React from 'react';
+import ClickOutside from 'react-click-outside';
 
 class Burger extends React.Component {
   constructor(props) {
@@ -9,37 +10,45 @@ class Burger extends React.Component {
     this.toggleMenu = this.toggleMenu.bind(this);
   }
 
+  handleClickOutside() {
+    this.setState({
+      isOpen: false
+    });
+  }
+
   toggleMenu(e) {
     e && e.preventDefault();
 
-    this.setState({
-      isOpen: !this.state.isOpen
+    this.setState(prevState => {
+      return {
+        isOpen: !prevState.isOpen
+      }
     });
-  } 
+  }
 
   render() {
     const styleButton = this.state.isOpen ? {
       display: 'none',
-      color: '#eee',
-      verticalAlign: 'text-top',
-      textDecoration: 'underline',
     } :
     {
-      display: 'inline',
-      color: '#eee',
-      verticalAlign: 'text-top',
-      textDecoration: 'underline',
+      display: 'block',
+    };
+
+    const wrapperStyle = {
+      display: 'inline-block',
+      width: '15%',
+      top: 0,
+      verticalAlign: 'top',
     };
 
     const className = `nav ${this.state.isOpen ? 'open' : 'closed'}`;
 
     return (
-      <div style={{display: 'inline-block', width: '15%', top: 0, verticalAlign: 'top', textDecoration: 'underline'}}>
-        <a onClick={this.toggleMenu} style={styleButton}>
-          menu
-        </a>
-        <nav className={className}>
-          <a onClick={this.toggleMenu} style={{textDecoration: 'underline'}}>menu</a>
+      <div style={wrapperStyle}>
+        <span id="nav-button" onClick={this.toggleMenu} style={styleButton}>
+          ☰
+        </span>
+        <nav className={className} onClick={this.toggleMenu}>
           {this.props.children}
         </nav>
       </div>
@@ -47,4 +56,4 @@ class Burger extends React.Component {
   }
 }
 
-export default Burger;
+export default ClickOutside(Burger);

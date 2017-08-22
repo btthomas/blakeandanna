@@ -2,12 +2,16 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const photos = [
-  "https://unsplash.it/1000",
-  "https://unsplash.it/1200/1000",
-  "https://unsplash.it/1000/1200",
-  "https://unsplash.it/900/1000",
-  "https://unsplash.it/1200/900",
-  "https://unsplash.it/800/600",
+  '/pics/blake_anna_1.jpg',
+  '/pics/blake_anna_2.jpg',
+  '/pics/blake_anna_3.jpg',
+  '/pics/blake_anna_4.jpg',
+  '/pics/blake_anna_5.jpg',
+  '/pics/blake_anna_6.jpg',
+  '/pics/blake_anna_7.jpg',
+  '/pics/blake_anna_8.jpg',
+  '/pics/blake_anna_9.jpg',
+  '/pics/blake_anna_10.jpg',
 ];
 
 const PhotosPage = () =>
