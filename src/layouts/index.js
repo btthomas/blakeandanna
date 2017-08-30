@@ -9,8 +9,8 @@ import './index.css'
 
 const Header = () =>
   <div
+    id="top-bar"
     style={{
-      background: '#5ac491',
       marginBottom: '1rem',
     }}
   >
@@ -26,15 +26,15 @@ const Header = () =>
           <Link
             to="/"
             style={{
-              color: 'white',
+              color: '#fff',
               textDecoration: 'none',
             }}
           >
-            Blake and Anna
+            Blake <span id="heart">♥</span> Anna
           </Link>
         </h1>
         <h2 style={{ margin: 0 }}>
-          February 3rd, 2018
+          February 3, 2018
         </h2>
       </div>
       <Burger>

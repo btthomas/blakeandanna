@@ -8,12 +8,12 @@ const AccomodationsPage = () =>
     </h2>
     <h4>
       <a href="https://goo.gl/maps/GwL8cckNgXK2">
-        7901 Tysons One Place, Tysons, VA 22102
+        7901 Tysons One Place<br/>Tysons, VA 22102
       </a>
     </h4>
-    <a href="https://aws.passkey.com/go/hunterandthomaswedding">Click here to make a reservation with a discounted rate</a>
+    <a href="https://aws.passkey.com/go/hunterandthomaswedding">Click here to make a reservation with a discounted rate.</a>
     <img
-      style={{width: '100%', maxWidth: '500px', height: 'auto', display: 'block', margin: '15px auto'}}
+      style={{width: '100%', maxWidth: '500px', height: 'auto', display: 'block', margin: '30px auto'}}
       src="https://yt3.ggpht.com/-L8oRWx9L7uI/AAAAAAAAAAI/AAAAAAAAAAA/VqzGSozeoDM/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
     />
   </div>

@@ -59,10 +59,12 @@ a:hover {
   cursor: pointer;
 }
 li a {
-  color: #725684;
+  color: var(--color-2);
+  font-weight: 700;
 }
 li a:visited {
-  color: var(--color-4);
+  color: #444;
+  font-weight: 700;
 }
 
 abbr[title] {
@@ -655,6 +657,31 @@ pre tt:after {
   }
 }
 
+a {
+  color: var(--color-2);
+  font-weight: 700;
+}
+a:visited {
+  color: #444;
+  font-weight: 700;
+}
+
+#top-bar {
+  background-color: var(--color-2);
+}
+
+#top-bar h1 {
+  color: #fff;
+}
+
+#top-bar h2 {
+  color: var(--color-3);
+}
+
+#heart {
+  color: red;
+}
+
 #nav-button {
   color: #eee;
   vertical-align: text-top;
@@ -682,8 +709,8 @@ nav.closed {
 
 nav.open {
   width: 250px;
+  opacity: 0.9;
 }
-
 
 nav a {
   display: block;
@@ -694,6 +721,23 @@ nav a {
   color: var(--color-3);
 }
 
+nav a:visited {
+  color: #ddd;
+}
+
 #nav-button:hover {
   cursor: pointer;
+}
+
+.registry img {
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+
+  display: block;
+  margin: 50px auto;
+}
+
+#bath {
+  max-width: 300px;
 }

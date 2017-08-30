@@ -8,12 +8,12 @@ const VenuePage = () =>
     </h2>
     <h4>
       <a href="https://goo.gl/maps/6YZJVGc3tWC2">
-        9750 Meadowlark Gardens Court, Vienna, VA 22182
+        9750 Meadowlark Gardens Court<br/>Vienna, VA 22182
       </a>
     </h4>
-    <a href="https://www.novaparks.com/weddings-catering/the-atrium-at-meadowlark">The Atrium homepage</a>
+    <a href="https://www.novaparks.com/weddings-catering/the-atrium-at-meadowlark">The Atrium</a>
     <img
-      style={{width: '100%', maxWidth: '500px', height: 'auto', display: 'block', margin: '15px auto'}}
+      style={{width: '100%', maxWidth: '500px', height: 'auto', display: 'block', margin: '30px auto'}}
       src="https://www.novaparks.com/sites/default/files/styles/full_width/public/image-gallery/Meadowlark8.jpg"
     />
   </div>

@@ -9,12 +9,12 @@ const people = [
   },
   {
     name: 'Rachel',
-    imgSrc: 'http://via.placeholder.com/900x1200',
+    imgSrc: 'https://via.placeholder.com/900x1200',
     description: 'Rachel smells bad.',
   },
   {
     name: 'Maggie',
-    imgSrc: 'http://via.placeholder.com/900x1200',
+    imgSrc: 'https://via.placeholder.com/900x1200',
     description: 'Maggie smells bad.',
   },
   {
@@ -46,13 +46,11 @@ const people = [
 
 const PeoplePage = () =>
   <div>
-    <h2>People</h2>
-    
     {people.map(person => {
       return (
         <div key={person.name}>
-          <h4>{person.name}</h4>
-          <img src={person.imgSrc} style={{width: '80%', maxWidth: '600px', height: 'auto', display: 'block', margin: '15px auto'}}/>
+          <h3>{person.name}</h3>
+          <img src={person.imgSrc} style={{width: '80%', maxWidth: '600px', height: 'auto', display: 'block', margin: '-5px auto 25px'}}/>
           <p>{''}</p>
         </div>
       );
