@@ -47,9 +47,9 @@ const Header = () =>
 const TemplateWrapper = ({ children }) =>
   <div>
     <Helmet
-      title="Blake and Anna Wedding - Feb 3, 2018"
+      title="Blake and Anna - February 3, 2018"
       meta={[
-        { name: 'description', content: 'Blake and Anna get married on February 3rd, 2018' },
+        { name: 'description', content: 'Blake and Anna are getting married on February 3rd, 2018' },
       ]}
     />
     <Header />

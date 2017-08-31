@@ -2,9 +2,10 @@ import React from 'react'
 import Link from 'gatsby-link'
 import pages from '../pageList.js'
 
-const getNum = () => {
-  return Math.floor(Math.random() * 10) + 1;
-}
+// const getNum = () => {
+//   // 10 options! use minutes mod 10
+//   return Math.floor(new Date().getMinutes() % 10) + 1;
+// }
 
 const IndexPage = () =>
   <div>
@@ -20,7 +21,7 @@ const IndexPage = () =>
     </ul>
     <img
       style={{width: '100%', height: 'auto', display: 'block', margin: '15px auto'}}
-      src={`/pics/blake_anna_${getNum()}.jpg`}
+      src={`/pics/blake_anna_6.jpg`}
     />
   </div>
 

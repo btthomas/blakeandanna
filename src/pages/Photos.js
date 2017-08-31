@@ -1,18 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const photos = [
-  '/pics/blake_anna_1.jpg',
-  '/pics/blake_anna_2.jpg',
-  '/pics/blake_anna_3.jpg',
-  '/pics/blake_anna_4.jpg',
-  '/pics/blake_anna_5.jpg',
-  '/pics/blake_anna_6.jpg',
-  '/pics/blake_anna_7.jpg',
-  '/pics/blake_anna_8.jpg',
-  '/pics/blake_anna_9.jpg',
-  '/pics/blake_anna_10.jpg',
-];
+const MAX = 26;
+
+const nums = [];
+
+for ( let i = 1; i <= MAX; i++ ) {
+  nums.push(i);
+}
+
+const photos = nums.map(num => `/pics/blake_anna_${num}.jpg`);
 
 const PhotosPage = () =>
   <div>
