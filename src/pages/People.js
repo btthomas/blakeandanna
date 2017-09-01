@@ -9,12 +9,12 @@ const people = [
   },
   {
     name: 'Rachel',
-    imgSrc: 'https://via.placeholder.com/900x1200',
+    imgSrc: '/pics/rachel.jpg',
     description: 'Rachel smells bad.',
   },
   {
     name: 'Maggie',
-    imgSrc: 'https://via.placeholder.com/900x1200',
+    imgSrc: '/pics/maggie.jpg',
     description: 'Maggie smells bad.',
   },
   {
