@@ -3,6 +3,11 @@ import Link from 'gatsby-link'
 
 const people = [
   {
+    name: 'Betty',
+    imgSrc: '/pics/betty.jpg',
+    description: 'Marianne smells bad.',
+  },
+  {
     name: 'Marianne',
     imgSrc: '/pics/marianne.jpg',
     description: 'Marianne smells bad.',
