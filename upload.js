@@ -42,22 +42,22 @@ uploader.on('end', function() {
 });
 
 // invalidate cloudfront
-const awsCloudClient = new AWS.CloudFront(options);
+// const awsCloudClient = new AWS.CloudFront(options);
 
-const params = {
-  DistributionId: secrets.id,
-  InvalidationBatch: {
-    CallerReference: new Date().getTime().toString(),
-    Paths: {
-      Quantity: 1,
-      Items: [
-        '/*',
-      ]
-    }
-  }
-};
+// const params2 = {
+//   DistributionId: secrets.id,
+//   InvalidationBatch: {
+//     CallerReference: new Date().getTime().toString(),
+//     Paths: {
+//       Quantity: 1,
+//       Items: [
+//         '/*',
+//       ]
+//     }
+//   }
+// };
 
-cloudfront.createInvalidation(params, function(err, data) {
-  if (err) console.log(err, err.stack); // an error occurred
-  else     console.log(data);           // successful response
-});
+// awsCloudClient.createInvalidation(params2, function(err, data) {
+//   if (err) console.log(err, err.stack); // an error occurred
+//   else     console.log(data);           // successful response
+// });
