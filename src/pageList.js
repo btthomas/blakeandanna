@@ -1,10 +1,10 @@
 const pages = [
-  'venue',
+  'events',
   'accomodations',
-  'schedule',
+  'recommendations',
   'people',
-  'registry',
   'photos',
+  'registry',
 ];
 
 export default pages;

@@ -1,7 +1,7 @@
 :root {
   --color-1: #5ac491;
   --color-2: #222;
-  --color-3: #f4f4f4;
+  --color-3: #fafafa;
   --color-4: #9E77B7;
   --color-5: #D3CE32;
 }
@@ -64,11 +64,11 @@ a:hover {
 }
 li a {
   color: var(--color-2);
-  font-weight: 700;
+  font-weight: 600;
 }
 li a:visited {
   color: #444;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 abbr[title] {
@@ -262,7 +262,7 @@ h1 {
   line-height: 1.1;
 }
 h1 a {
-  letter-spacing: 1.5px !important;
+  letter-spacing: 1.75px !important;
 }
 h2 {
   margin-left: 0;
@@ -276,7 +276,7 @@ h2 {
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
@@ -293,7 +293,7 @@ h3 {
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
@@ -310,7 +310,7 @@ h4 {
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
@@ -327,7 +327,7 @@ h5 {
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
@@ -344,7 +344,7 @@ h6 {
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;
@@ -658,6 +658,7 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
@@ -666,11 +667,11 @@ pre tt:after {
 
 a {
   color: var(--color-2);
-  font-weight: 700;
+  font-weight: 600;
 }
 a:visited {
   color: #444;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 #top-bar {
@@ -747,4 +748,39 @@ nav a:visited {
 
 #bath {
   max-width: 300px;
+}
+
+p.person.description {
+  display: block;
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto 25px;
+  line-height: 1.25em;
+}
+
+.events > h2::before {
+  color: red;
+  content: "♥ ";
+  margin: 0px 0px 15px;
+}
+
+.events > h2 {
+  margin: 0px 0px 15px;
+}
+.events > h3 {
+  margin: 0px 0px 10px;
+}
+.events > h4 {
+  margin: 0px 0px 8px;
+}
+
+.things li::before {
+  color: red;
+  content: "♥ ";
+  font-size: 0.75rem;
+}
+
+.things h4 {
+  display: inline-block;
+  margin: 0px 0px 8px;
 }

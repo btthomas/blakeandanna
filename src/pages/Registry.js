@@ -1,6 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
-
+import popup from '../popup.js';
 
 const links = [
   {
@@ -16,17 +15,11 @@ const links = [
 
 const RegistryPage = () => {
 
-  const handleClick = (url, e) => {
-    e.preventDefault();
-
-    window.open(url, '_blank');
-  }
-
   return (
     <div className="registry">
       {links.map(link => {
         return (
-          <a key={link.url} href={link.url} onClick={handleClick.bind(null, link.url)}>
+          <a key={link.url} href={link.url} onClick={popup.bind(null, link.url)}>
             <img src={link.imgSrc} id={link.id}/>
           </a>
         );
