@@ -774,6 +774,14 @@ p.person.description {
   margin: 0px 0px 8px;
 }
 
+.top-7 {
+  margin-top: 7px;
+}
+
+.bottom-12 {
+  margin-bottom: 12px;
+}
+
 .things li::before {
   color: red;
   content: "♥ ";

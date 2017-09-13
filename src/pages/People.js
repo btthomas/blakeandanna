@@ -10,32 +10,32 @@ const people = [
   {
     name: 'The Thomas Family',
     imgSrc: '/pics/thomas.jpg',
-    description: `Laura, Bruce III, Bruce Jr., Betsy, Betty, Meghan, & Eric`,
+    description: `Laura, Bruce III, Bruce Jr., Betsy, Betty, Meghan & Eric`,
   },
   {
     name: 'Betty, Flower Girl',
     imgSrc: '/pics/betty.jpg',
-    description: `Betty is Blake’s sweet and brilliant niece.  She enjoys counting to ten, blowing raspberries, and saying “avocado.”  Babysitting Betty is one of Blake and Anna’s favorite weekend activities.`,
+    description: `Betty is Blake’s sweet and brilliant niece.  She enjoys counting to ten, blowing raspberries, and saying “avocado.”  Babysitting Betty is one of Blake and Anna’s favorite weekend activities.  Be sure to check out her dance moves at the reception!`,
   },
   {
-    name: 'Marianne, Matron of Honor',
+    name: 'Marianne, Maid of Honor',
     imgSrc: '/pics/marianne.jpg',
-    description: `Anna was randomly assigned as Marianne’s freshman roommate.  11 years later (7 under the same roof!), she would choose her in a heartbeat.  Anna and Marianne have built their friendship on a rock-solid foundation of bad (great) reality television marathons, late-night nachos, and cake-in-a-mug (recipe available upon request).  Marianne is devoted to her family and friends, and takes care of everyone.`,
+    description: `Anna hit the jackpot when she was randomly assigned as Marianne’s freshman roommate at William & Mary.  In the past eleven years, they've spent seven under the same roof.  Marianne and Anna have built their friendship on a rock-solid foundation of bad (great) reality television marathons, late-night nachos, and cake-in-a-mug (recipe available upon request).  Marianne is devoted to her family and friends, and takes care of everyone around her.`,
   },
   {
     name: 'Rachel, Bridesmaid',
     imgSrc: '/pics/rachel.jpg',
-    description: `Rachel and Anna met in third grade.  Their friendship grew through many recesses spent deep in conversation and a mutual love of the performing arts.  If they weren’t sharing the stage, they were supporting one another, attending countless chorus concerts, dance recitals, and musicals over the years.  Though they’ve lived in different cities since starting college, Anna is so thankful they’ve kept in touch.`,
+    description: `Rachel and Anna met in third grade.  Their friendship grew through many recesses spent deep in conversation and a mutual love of the performing arts.  If they weren’t sharing the stage, they were supporting one another, attending countless chorus concerts, dance recitals, and musicals over the years.  A conversation with Rachel is like a therapy session - she always puts things in perspective.  Though they’ve lived in different cities since college, Anna is so thankful they’ve remained so close.`,
   },
   {
     name: 'Maggie, Bridesmaid',
     imgSrc: '/pics/maggie.jpg',
-    description: `Maggie and Anna first met in high school, but grew close in college through many theatre and English classes together, and many late-night adventures after mom (Marianne) had gone to bed.  Maggie is quick to lighten the mood, and can always get Anna to laugh at herself.  She's also fiercely competitive.  Don’t mess with her over board games or at the flip-cup table.`,
+    description: `Maggie and Anna first met in high school, but grew close at William & Mary through many theatre and English classes together, and many late-night adventures after mom (Marianne) had gone to bed.  Maggie is quick to lighten the mood with her infectious laugh, and can always get Anna to join in and laugh at herself.  She's also fiercely competitive.  Don’t mess with her over board games or at the flip-cup table.`,
   },
   {
     name: 'Caitlin, Bridesmaid',
     imgSrc: '/pics/caitlin.jpg',
-    description: `Caitlin and Anna started as work-friends, but quickly became life-friends.  She and Atticus (pictured), are frequent visitors in the Hunter-Thomas household.  Caitlin loves to travel the world, and is always planning her next adventure off the beaten path.  She’s also a social butterfly, and if weren’t for her, Anna would likely spend every weekend in sweatpants.`,
+    description: `Caitlin and Anna started as work-friends, but were destined to be friends in real life, too.  Caitlin is an amazing teammate and friend - always asking, "how can I help?".  She loves to travel off the beaten path, and is probably counting the days until she jets off on her next adventure.  She’s also a social butterfly, and if weren’t for Caitlin, Anna would likely spend every weekend at home in sweatpants.  Caitlin and Atticus (pictured), are frequent visitors in the Hunter-Thomas household.  `,
   },
   {
     name: 'Brian, Best Man',

@@ -5,6 +5,9 @@ import pages from '../pageList.js'
 const IndexPage = () =>
   <div>
     <h1>Hello Friends!</h1>
+    <p>
+      Fifteen years later, we've decided to get married.  We can't wait to celebrate with you!
+    </p>
     <ul>
       {pages.map(page => {
         return (
