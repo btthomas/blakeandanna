@@ -1,7 +1,7 @@
 import React from 'react';
 import popup from '../popup.js';
 
-const AccomodationsPage = () =>
+const AccommodationsPage = () =>
   <div>
     <h2>
       Hyatt Regency Tysons Corner Center
@@ -27,4 +27,4 @@ const AccomodationsPage = () =>
     />
   </div>
 
-export default AccomodationsPage;
+export default AccommodationsPage;

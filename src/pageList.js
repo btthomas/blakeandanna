@@ -1,6 +1,6 @@
 const pages = [
   'events',
-  'accomodations',
+  'accommodations',
   'recommendations',
   'people',
   'photos',
